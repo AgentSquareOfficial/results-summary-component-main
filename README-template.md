@@ -17,8 +17,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,20 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View my solution here!!](https://your-solution-url.com)
+- Live Site URL: [See the site here!!](https://agentsquareofficial.github.io/results-summary-component-main)
 
 ## My process
 
@@ -53,71 +43,41 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This time, the project was challenging a bit. The alignment I had done here is very nasty looking. Somehow I had managed to create the proper alignement, what it seemed good. This time I learned a very important thing, I have to get used to some common code sniffets for quick alignments next time onwards. Again, I got removed some dust of the flexbox concepts I had known earlier.
 
-To see how you can add code snippets, see below:
+Also this time around, I got idea about different colour channels. They helped me build the colors very close to the original one. One very important thing I want to highlight is that I need to learn more about the mobile version (@media usage). I have'nt done that version yet but will so soon and update it here.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Some HTML code I'm proud of(The idea of using box2 inside box one. Took me a while to figure it out!!)</h1>
+<div class="container">
+  <div class="card">
+    <div class="box1">
+      <div class="box2">
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  justify-content: space-between;(as I dont use this property in regular basis.)
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to focus on using the @media part, and using the json for dynamic population. This one took me around 4hrs to complete, so I will try to be little faster on this type of projects in the near future.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Kevin powell](https://www.youtube.com/@KevinPowell) - This man knows his job well. I tried some of his techniques and man it was way optimized and intuitive. 
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+I had used ChatGPT for alignment part, but the solution it provided did'nt work. So I figured it out on my own(that box1,box2 part!!). 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@agetsquareofficial](https://www.frontendmentor.io/profile/agentsquareofficial)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Somebody commented on my previous solution, some small but general ideas for better code writing. Thanks to that person if you are reading this. Any feedback will be highly appreciated. Thanks very much!!
