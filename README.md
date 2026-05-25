@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View my solution here!!](https://your-solution-url.com)
+- Solution URL: [View my solution here!!](https://github.com/AgentSquareOfficial/results-summary-component-main.git)
 - Live Site URL: [See the site here!!](https://agentsquareofficial.github.io/results-summary-component-main)
 
 ## My process
